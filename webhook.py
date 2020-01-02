@@ -16,7 +16,7 @@ auth = HTTPBasicAuth()
 def run_pull():
     var = "Test"
 
-    os.system("./test.sh")
+    os.system("./test.sh &")
     return jsonify({'data': 'Hello pulling, %s!' % var})
 
 

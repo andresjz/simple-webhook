@@ -3,4 +3,5 @@ echo "Hello World"
 docker ps -a
 docker-compose ps
 git fetch
-#docker stats
+echo "end"
+#docker stats do not use infinite
